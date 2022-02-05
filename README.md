@@ -63,27 +63,31 @@ there are 3 types soft mixed hard the default reset type is mixed .</br>
 checked effect of all these on local repo history.</br>
 we can also use stash and other to do different things.</br>
 command - git reset <commit>
-## Katas-10 Basic cleaning
+## Katas-11 Basic cleaning
   Used when there and object files , generated files , and compiled files.</br>
 git clean -n</br>
 git clean -n -d</br>
 git clean -f -d</br> these are some commands which is used.
-## Katas-11 amend
+## Katas-12 amend
 Amend command used only when you have not pushed your commit to remote repo. else it will create conflict and create confusion having different commit messages.
 If we simply want to modify your last commit message**,git commit --amend** is used and we will get new and improved commit.</br>
 **we can't amend our last commit if we’ve already pushed it.**
-## Katas-12 reorder-the-history 
+## Katas-13 reorder-the-history 
 git rebase -i <after-this-commit></br>
 git log --oneline --graph</br>
 git reflog </br>
 using above command git rebase -i we can reorder our commit history in order we want **git rebase -i HEAD~3** using this command every commit in the range HEAD~3..HEAD with a changed message and all of its descendants will be rewritten. if something is pushed to server we can't commit this again.</br>
 pick , edit , reword all command is used while reordering .
 
-## Katas -13 Squashing
-if we want to squash some of the commit into a new one and making good log show we use this command.
+## Katas -14 Squashing
+if we want to squash some of the commit into a new one and making good log show we use this command.</br>
+![wzol8](https://user-images.githubusercontent.com/79358859/152656946-3f3a73bc-c051-4503-8afe-e77d906ba14e.gif)
 
-## Katas -14 Advance Interactive rebase.
+## Katas -15 Advance Interactive rebase.
+in Interactive rebasing we can do multiple thing like squash ,pick,reword,rewriting history all this with using single command git rebase -i or git rebase --interactive
+</br>
+Tried on local and got understanding of squashing.
 
-
+## Katas-16  Basic stashing
 
 

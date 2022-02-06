@@ -1,4 +1,4 @@
-# Main repository created for Katas exercises
+# Main repository created for Katas exercises solutions
 ## katas-1 Basic Commits 
 Done with the basic of command like -
 
@@ -89,5 +89,18 @@ in Interactive rebasing we can do multiple thing like squash ,pick,reword,rewrit
 Tried on local and got understanding of squashing.
 
 ## Katas-16  Basic stashing
+done with the basic stashing. used when we want to move only branch not working directory so we can save your workspace history for future in stash directory</br>
+used command like stash , stash list , stash apply, stash drop, stash clear .
+## Katas-18  git ignore
+we can ignore some of thing we want not to stage and commit. </br>
+used command and pushed to repo. (command are git rm --cached ,git rm and .gitignore file are created with different extension.)you can put extesions like.txt, .s in gitignore file to ignore the file.
+## Katas -19 Git-tag
+Tags are convenient for keeping track of commits that bump a version number.</br>
+Also gone through the **semantic versioning like v4.2.1** , two types of tags are there lightweight and annotated tags.</br>
+tried using command like-</br>
+git tag </br>
+git tag -d <tag></br>
+git tag --list <pattern></br>
+git tag -a (for annotated tag)
 
 
